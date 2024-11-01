@@ -1,0 +1,44 @@
+/* apply style to add new submenu*/
+
+#acf-sca_position, #acf-sca_include, #acf-sca_front {
+    background-color: white;
+    margin-left: 0px; 
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding-left: 3px; 
+}
+
+#acf-sca_position .label label, #acf-sca_include .label label, #acf-sca_content .label label, #acf-sca_class .label label, #acf-sca_front .label label {
+    font-size: 15px;
+}
+
+#acf-sca_position .label .required, #acf-sca_include .label .required, #acf-sca_content .label .required {
+    margin-left: 0px;
+}
+
+.acf-checkbox-list label {
+    font-size: 14px;
+}
+
+#acf-sca_content, #acf-sca_class {
+
+    margin-left: 0px; 
+    padding-left: 3px; 
+}
+
+#sca-note {
+    display: none;
+}
+
+#sca-note2 {
+    display: none;
+}
+
+#acf-sca_front {
+    display: none;
+}
+
+.sca-adder {
+    background-color: white;
+    padding: 20px; 
+}
